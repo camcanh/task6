@@ -13,7 +13,7 @@ export class LoginComponent implements OnInit {
 
   constructor(private mediaServices: MediaService) { }
 
-  login = () => {
+  loginUser = () => {
     const user = {
       username: this.username,
       password: this.password
